@@ -1,6 +1,6 @@
 {
-  "name":"@adarsh0329/test-package-demo-rollup",
-  "version": "1.0.0",
+  "name": "@adarsh0329/test-package-demo-rollup",
+  "version": "2.0.0",
   "description": "Test Package",
   "main": "dist/index.js",
   "type": "module",
