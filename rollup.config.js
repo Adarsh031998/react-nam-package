@@ -3,7 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
 import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
-
+const devMode = (process.env.NODE_ENV === 'development');
 export default [
   {
     input: './src/index.js',
