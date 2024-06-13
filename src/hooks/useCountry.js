@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-export const useCountry = (name) => {
+const useCountry = (name) => {
   const [country, setCountry] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState();
@@ -30,3 +30,5 @@ export const useCountry = (name) => {
   }
 
 }
+
+export default useCountry;

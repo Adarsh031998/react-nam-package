@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
  
-export const Button = () => {
+const Button = () => {
   const [color, setColor] = useState('blue');
  
   const changeColor = () => {
@@ -14,3 +14,4 @@ export const Button = () => {
   );
 };
  
+export default Button;
