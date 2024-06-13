@@ -1,0 +1,1 @@
+import{useState as t,useEffect as o}from"react";const r=r=>{const[n,c]=t([]),[e,a]=t(!1),[s,i]=t();return o((()=>{(async()=>{try{a(!0);const t=await fetch(`https://restcountries.com/v3.1/name/${r}`),o=await t.json();c(o)}catch(t){console.error(t),i("The country is not found!!!")}finally{a(!1)}})()}),[r]),{loading:e,error:s,country:n}};export{r as useCountry};
